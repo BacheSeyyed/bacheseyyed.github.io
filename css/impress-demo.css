@@ -28,6 +28,11 @@
     doesn't do any harm and gives us a fresh start.
 */
 
+@font-face{
+    font-family: yekan;
+    src: url(Yekan.ttf);
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,7 +50,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    /* font: inherit; */
     vertical-align: baseline;
 }
 
@@ -167,6 +172,7 @@ a:focus {
     position: relative;
     width: 900px;
     padding: 40px;
+    direction: rtl;
     margin: 20px auto;
 
     -webkit-box-sizing: border-box;
@@ -175,7 +181,7 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'PT Serif', georgia, serif;
+    font-family:yekan,'PT Serif', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
 }
@@ -221,7 +227,7 @@ a:focus {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: yekan ,'Open Sans', Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
