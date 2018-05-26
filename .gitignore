@@ -2,6 +2,7 @@
 /node_modules
 /npm-debug.log
 /*.tgz
+ori-index.html
 
 # Files for editors and other tools
 /.brackets.json
